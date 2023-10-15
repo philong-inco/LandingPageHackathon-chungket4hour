@@ -1,0 +1,109 @@
+@media only screen and (max-width: 900px){
+    :root{
+        --main-color-1: #EE500C;
+        --main-color-2: #0693e3;
+        --main-color-3: #fff;
+        --main-color-hover: #f0891a;
+
+        --heading-big: 2rem;
+        --heading-normal: 1.3rem;
+        --heading-small: 1rem;
+        --heading-text: 0.8rem;
+
+        --border-radius-img: 70px;
+        --border-radius-btn: 20px;
+    }
+    #sec2, #sec3, #sec4,#sec5,#sec6{
+        padding: 20px 0;
+    }
+    p{
+        text-align: justify;
+    }
+    .main .left,
+    .main .right{
+        width: 100%;
+        text-align: center;
+    }
+    .main.s3 .list p{
+        text-align: left;
+    }
+    .main.s3 .list .item{
+        min-height: 350px;
+    }
+    
+
+    
+    
+
+/* Nghĩa */
+/* header */
+header .main.hd nav ul {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: -60%;
+    width: 60%;
+    height: 100vh;
+    flex-direction: column;
+    padding-top: 120px;
+    /* justify-content: center; */
+}
+/* footer */
+footer .main.ft .col1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-flow: row wrap;
+    
+}
+footer .main.ft .col1{
+    gap: 0px;
+}
+
+.n_open {
+    display: block;
+}
+
+.n_open:hover .bx,
+.n_close:hover .bx {
+    color: var(--main-color-hover);
+}
+
+/* end header */
+
+/* sec 4 */
+.main.sec4 .left{
+    order: 2;
+}
+.main.sec4 .right{
+    order: 1;
+}
+
+/* sec 4 */
+
+
+/* sec5 */
+.slide_container{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+
+/* Nghĩa */
+
+/* Long */
+.bannerl{
+    background-image: url(./img/banner-tablet.png);
+}
+
+/* Long */
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .bannerl{
+        background-image: url(./img/banner-mobile.png);
+    }
+}
